@@ -75,6 +75,7 @@ $data-gap-list: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50
 @each $item in $data-gap-list {
 	[data-gap="#{$item}"]{--item-gap: #{$item}px;}
 	[data-gap-v="#{$item}"]{row-gap: #{$item}px !important;}
+	[data-gap-sm="#{$item}"]{--item-gap: #{$item}px;}
 
 	@if ($item > 15){
 		[data-size="#{$item}"]{--size: #{$item}px;}
@@ -83,7 +84,7 @@ $data-gap-list: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50
 
 	.left-#{$item}{left: #{$item}px;}
 	.right-#{$item}{right: #{$item}px;}
-
+	
 	.border-radius-#{$item}{border-radius: #{$item}px;}
 }
 
@@ -134,3 +135,10 @@ h1, h2, h3, h4, h5, h6{margin: 0;}
 .justify-content-between{justify-content: space-between;}
 .font-style-italic{font-style: italic !important;}
 .nowrap{white-space: nowrap !important;}
+
+@media (max-width: 992px) {
+	.section-title{font-size: 24px;}
+}
+@media (max-width: 768px) {
+	.container{padding: 0 20px;}
+}
