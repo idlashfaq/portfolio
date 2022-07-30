@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <nav class="main-navbar">
+        <div class="container">
+            <a href=""  class="logo">
+                <img src="images/logo.png" class="logo" alt="logo">
+            </a>
+            <a href="" class="logo-v2">
+                <img src="images/logo-v2.png" class="logo-v2" alt="logo">
+            </a>
+            <nav class="nav-bar">
+                <a href="" class="item">Home</a>
+                <a href="#about-me-main" class="item">About Me</a>
+                <a href="#skils-main" class="item">Skils</a>
+                <a href="#recent-work" class="item">My Projects</a>
+                <a href="#testimonials-main" class="item">Recommendations</a>
+                <a href="#pricing-main" class="item">Packages</a>
+                <a href="#Get-in-touch-main" class="item">Contect Us</a>
+            </nav>
+        </div>
+    </nav>
+    <!-- <header class="main-banner">
+        <div class="banner-main">
+            <div class="container">
+                <div>
+                    <h1>HI, <br> <span>I'AM Ashfaq,</span> <br> Front-end Developer</h1>
+                    <p>I design and code beautifully simple things, and I love what I do.</p>
+                    <div class="h-list" data-gap="10">
+                        <a href="" class="btn-primary">Contect Us</a>
+                        <div class="btn-primary icon-rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentcolor" d="M7 17.259V6.74104C7 5.96925 7.83721 5.48838 8.50387 5.87726L17.5192 11.1362C18.1807 11.5221 18.1807 12.4779 17.5192 12.8638L8.50387 18.1227C7.83721 18.5116 7 18.0308 7 17.259Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/my-picture.png" alt="">
+            </div>
+        </div>
+    </header> -->
+    <header class="main-banner-v2">
+        <div class="banner-main">
+            <div class="container">
+                <div>
+                    <h1>HI, <br> <span>I'AM Ashfaq,</span> <br> Front-end Developer</h1>
+                    <p>I design and code beautifully simple things, and I love what I do.</p>
+                    <div class="h-list" data-gap="10">
+                        <a href="" class="btn-primary">Contect Us</a>
+                        <div class="btn-primary icon-rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentcolor" d="M7 17.259V6.74104C7 5.96925 7.83721 5.48838 8.50387 5.87726L17.5192 11.1362C18.1807 11.5221 18.1807 12.4779 17.5192 12.8638L8.50387 18.1227C7.83721 18.5116 7 18.0308 7 17.259Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-image">
+                    <img src="images/banner-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="main-banner-v3 d-none">
+        <div class="banner-main">
+            <div class="container">
+                <div>
+                    <h1>HI, <br> <span>I'AM Ashfaq,</span> <br> Front-end Developer</h1>
+                    <p>I design and code beautifully simple things, and I love what I do.</p>
+                    <div class="h-list" data-gap="10">
+                        <a href="" class="btn-primary">Contect Us</a>
+                        <div class="btn-primary icon-rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" viewBox="0 0 24 24">
+                                <path fill="currentcolor" d="M7 17.259V6.74104C7 5.96925 7.83721 5.48838 8.50387 5.87726L17.5192 11.1362C18.1807 11.5221 18.1807 12.4779 17.5192 12.8638L8.50387 18.1227C7.83721 18.5116 7 18.0308 7 17.259Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-image">
+                    <img src="images/banner-image.png" alt="">
+                </div>
+                <div class="items-holder">
+                    <div class="item">
+                        <div class="image-holder">
+                            <img alt="" src="images/item.jpg"/>
+                        </div>
+                        <div class="item-title">UI/UX</div>
+                    </div>
+                    <div class="item">
+                        <div class="image-holder">
+                            <img alt="" src="images/item.jpg"/>
+                        </div>
+                        <div class="item-title">UI/UX</div>
+                    </div>
+                    <div class="item">
+                        <div class="image-holder">
+                            <img alt="" src="images/item.jpg"/>
+                        </div>
+                        <div class="item-title">UI/UX</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about-me-main" id="about-me-main">
+            <div class="container">
+                <div class="about-me">
+                    <div class="about--content">
+                        <h2 class="section-title">Who Am I</h2>
+                        <p class="details">Creative Front-End Developer offering 9+ years of experience providing high-impact web solutions for diverse industry organizations. Over the past 9 years, as a Front-end Developer, I have designed, developed, and launched customized, highly responsive websites and e-commerce solutions using advanced technologies. </p>
+                        <div class="basic-info">
+                            <h3 class="sub-title">Basic Information</h3>
+                            <div class="info-item">
+                                <div class="item">
+                                    <div>Full Name:</div>
+                                    <div>Muhammad Ashfaq</div>
+                                </div>
+                                <div class="item">
+                                    <div>Email:</div>
+                                    <div>idl4ashfaq@gmail.com</div>
+                                </div>
+                                <div class="item">
+                                    <div>Phone:</div>
+                                    <div>+923224548770</div>
+                                </div>
+                                <div class="item">
+                                    <div>Address:</div>
+                                    <div>House #185 Street 2 rashidpura Chowk Akhrimint Stop Lahore Pakistan</div>
+                                </div>
+                                <div class="item">
+                                    <div>Nationality:</div>
+                                    <div>Pakistan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/muhammad.ashfaq.9634" class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24">
+                                <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+                            </svg>
+                        </a>
+                        <a href="" class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill="currentcolor" d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24">
+                                <path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/idl4ashfaq/" class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 128 128" viewBox="0 0 128 128">
+                                <path fill-rule="evenodd" d="M72.658 52.912c7.188-8.265 15.318-12.457 25.597-11.951 16.723.822 28.493 12.464 29.339 30.639.743 16.008.216 32.072.33 48.108.028 3.848-1.774 5.286-5.467 5.193-4.947-.125-9.912-.239-14.847.049-4.896.286-6.758-1.679-6.674-6.542.193-10.887.074-21.782.053-32.673-.007-2.968.03-5.95-.202-8.904-.715-9.143-6.08-14.661-14.034-14.599-8.175.063-14.789 6.633-14.933 15.374-.211 12.868-.084 25.741-.111 38.612-.019 8.618-.026 8.618-8.535 8.674-18.4.118-18.393.118-18.4-18.286-.007-18.811.13-37.627-.144-56.434-.079-5.446 1.742-7.627 7.172-7.118 3.14.295 6.331.033 9.501.046C70.761 43.142 70.761 43.147 72.658 52.912zM1.921 83.654c0-11.282.207-22.569-.091-33.842-.137-5.272 1.876-7.097 6.958-6.784 4.93.302 9.896.17 14.84.065 3.714-.077 5.393 1.435 5.379 5.27-.088 23.751-.1 47.499-.054 71.25.007 3.802-1.637 5.369-5.376 5.29-5.341-.114-10.692-.156-16.029.021-4.097.137-5.636-1.614-5.592-5.646.13-11.874.046-23.751.046-35.625C1.977 83.654 1.949 83.654 1.921 83.654zM15.182 31.319C6.494 31.282.059 25.299 0 17.203-.06 9.245 6.582 3.029 15.147 3.023c9.32-.005 15.632 5.739 15.595 14.19C30.702 25.819 24.592 31.356 15.182 31.319z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skils-main" id="skils-main">
+            <div class="container">
+                <h2 class="section-title">Skils</h2>
+                <div class="fr-fr skils-content" data-gap="50" data-gap-v="30">
+                    <div>
+                        <label>Communication</label>
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Team Work</label>
+                        <div class="progress">
+                            <div class="bar" style="width:80%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>HTML/HTML5</label>
+                        <div class="progress">
+                            <div class="bar" style="width:90%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>CSS/CSS3</label>
+                        <div class="progress">
+                            <div class="bar" style="width:85%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>SASS/LESS, Compass</label>
+                        <div class="progress">
+                            <div class="bar" style="width:80%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>jQuery, JavaScript</label>
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>UI/UX Design</label>
+                        <div class="progress">
+                            <div class="bar" style="width:75%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>WordPress (Theme Design & Development)</label>
+                        <div class="progress">
+                            <div class="bar" style="width:80%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>React JS</label>
+                        <div class="progress">
+                            <div class="bar" style="width:85%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>TypeScript</label>
+                        <div class="progress">
+                            <div class="bar" style="width: 75%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Git, SVN, GitHub, GitLab</label>
+                        <div class="progress">
+                            <div class="bar" style="width: 70%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Jira, Agile, Scrum</label>
+                        <div class="progress">
+                            <div class="bar" style="width:85%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Node JS, NPM</label>
+                        <div class="progress">
+                            <div class="bar" style="width:75%">
+                                <div class="percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recent-work" id="recent-work">
+            <div class="title-area">
+                <div class="title-holder">
+                    <h2 class="section-title">My Startup Projects</h2>
+                    <p>I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="items-holder" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows": false, "dots": true}'>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                    <div class="item">
+                        <img class="logo" src="images/kybercore.svg">
+                        <p>Next level plug and play chassis systems for custom do-it-yourself lightsaber builds.</p>
+                        <a class="website-link" href="">www.carswitch.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-main" id="testimonials-main">
+            <div class="container">
+                <div class="grid" data-gap="20">
+                    <h2 class="section-title">Recommendations</h2>
+                    <p>People I've worked with have said some nice things...</p>
+                </div>
+                <div class="testimonials-items-holder" data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows": false, "dots": true}'>
+                    <div>
+                        <div class="item">
+                            <figure class="icon-rounded image-holder">
+                                <img src="images/alvin.png" alt="alvin" />
+                            </figure>
+                            <p class="client-review">“Matt was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish.”</p>
+                            <div class="grid" data-gap="5">
+                                <h6 class="client-name">Pascal Tremblay</h6>
+                                <span class="about-client">Creative Lead, Good Kind</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <figure class="icon-rounded image-holder">
+                                <img src="images/alvin.png" alt="alvin" />
+                            </figure>
+                            <p class="client-review">“Matt was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish.”</p>
+                            <div class="grid" data-gap="5">
+                                <h6 class="client-name">Pascal Tremblay</h6>
+                                <span class="about-client">Creative Lead, Good Kind</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="item">
+                            <figure class="icon-rounded image-holder">
+                                <img src="images/alvin.png" alt="alvin" />
+                            </figure>
+                            <p class="client-review">“Matt was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish.”</p>
+                            <div class="grid" data-gap="5">
+                                <h6 class="client-name">Pascal Tremblay</h6>
+                                <span class="about-client">Creative Lead, Good Kind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing-main" id="pricing-main">
+            <div class="container">
+                <h2 class="section-title text-center">PRICING PER BUILD</h2>
+                <div class="pricing-plans-holder">
+                    <div class="pricing-plan">
+                        <h3 class="pricing-title">Basic</h3>
+                        <ul class="pricing-features">
+                            <li>Website Audit</li>
+                            <li>Design</li>
+                            <li>Development</li>
+                        </ul>
+                        <div class="request-button">
+                            <a href="#contact" data-package="Basic" class="btn">Request quote</a>
+                        </div>
+                    </div>
+                    <div class="pricing-plan standard">
+                        <h3 class="pricing-title">STANDARD</h3>
+                        <ul class="pricing-features">
+                            <li>Website Audit</li>
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Backups</li>
+                            <li>Analytics</li>
+                            <li>Live Chat</li>
+                            <li>Search Engine Optimization</li>
+                            <li>Content Management</li>
+                        </ul>
+                        <div class="request-button">
+                            <a href="#contact" data-package="Basic" class="btn">Request quote</a>
+                        </div>
+                    </div>
+                    <div class="pricing-plan premium">
+                        <h3 class="pricing-title">PREMIUM</h3>
+                        <ul class="pricing-features">
+                            <li>Website Audit</li>
+                            <li>Design</li>
+                            <li>Development</li>
+                            <li>Backups</li>
+                            <li>Analytics</li>
+                            <li>Live Chat</li>
+                            <li>Search Engine Optimization</li>
+                            <li>Content Management</li>
+                            <li>Maintenance Agreement</li>
+                            <li>eCommerce</li>
+                            <li>Email Setup</li>
+                            <li>Hosting</li>
+                        </ul>
+                        <div class="request-button">
+                            <a href="#contact" data-package="Basic" class="btn">Request quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Get-in-touch-main" id="Get-in-touch-main">
+            <div class="container">
+                <h2 class="section-title">Thanks for taking the time to reach out. How can I help you today?</h2>
+                <div class="items-holder">
+                    <div class="fr-fr" data-gap="30">
+                        <fieldset class="grid" data-gap="5">
+                            <label>Fist Name</label>
+                            <input class="form-control" type="text" placeholder="" />
+                        </fieldset>
+                        <fieldset class="grid" data-gap="5">
+                            <label>Last Name</label>
+                            <input class="form-control" type="text" placeholder="" />
+                        </fieldset>
+                        <fieldset class="grid" data-gap="5">
+                            <label>Email</label>
+                            <input class="form-control" type="text" placeholder="" />
+                        </fieldset>
+                        <fieldset class="grid" data-gap="5">
+                            <label>Phone Number</label>
+                            <input class="form-control" type="text" placeholder="" />
+                        </fieldset>
+                    </div>
+                    <fieldset class="grid" data-gap="5">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="10"></textarea>
+                    </fieldset>
+                    <div class="margin-auto">
+                        <button class="btn btn-primary">SUBMIT</button>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
